@@ -35,8 +35,7 @@ Um **Port Scanner** moderno e concorrente desenvolvido em Python com interface g
 Certifique-se de ter o **Python 3.8** ou superior instalado em seu sistema.
 
 ### 1. Clonar o Repositório
-
-
+git clone https://github.com/maurycosta01/Scanner-de-portas-com-Interface-.git
 ### 2. Instalar Dependências
 
 pip install customtkinter
@@ -44,6 +43,19 @@ pip install customtkinter
 
 ### 3. Executar a Aplicação
 python portscam.py
-```bash
-git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
-cd NOME-DO-REPOSITORIO
+
+📖 Como Usar
+### 1 Insira o Alvo (pode ser um endereço IP como 127.0.0.1 ou um domínio como scanme.nmap.org).
+
+### 2 Defina o Intervalo de Portas (exemplo: de 20 até 100).
+
+### 3 Clique em Iniciar Varredura.
+
+### 4 Acompanhe a barra de progresso e as portas abertas no log central.
+
+### 5 (Opcional) Clique em ⏹ Parar Varredura para cancelar a análise a qualquer momento.
+
+### 6 Ao finalizar, clique em 💾 Salvar Relatório / Log para exportar o resultado.
+
+⚠️ Isenção de Responsabilidade (Legal Disclaimer)
+Este projeto foi desenvolvido estritamente para fins educacionais e de testes em redes próprias. O escaneamento não autorizado de servidores ou redes de terceiros sem permissão explícita pode violar termos de serviço ou leis locais. Use com responsabilidade.
